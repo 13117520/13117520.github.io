@@ -3,15 +3,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#A69076"> 
-    <title>Clothing Alterations & Tailor Stockport | Golden Needle</title>
-    <meta name="description" content="Top-rated clothing alterations and tailor in Stockport. Serving Cheadle, Bramhall, Didsbury, and Greater Manchester. Bridal, suits, and everyday garment repairs.">
-    <meta name="keywords" content="clothes alterations stockport, clothes alterations, dress alterations, tailor stockport, clothing repairs cheadle, wedding dress alterations stockport, suit tailoring bramhall">
+    <title>Clothing Alterations, Tailor & Seamstress Stockport | Golden Needle</title>
+    <meta name="description" content="Top-rated clothing alterations, local seamstress, and tailor in Stockport. Serving Cheadle, Bramhall, Didsbury, and Greater Manchester. Bridal, suits, and everyday garment repairs.">
+    <meta name="keywords" content="clothes alterations stockport, tailor stockport, local seamstress stockport, clothing repairs cheadle, wedding dress alterations stockport, suit tailoring bramhall">
     <link rel="canonical" href="https://www.yourwebsite.com/">
     
     <link rel="icon" href="logo-96x96.png" sizes="96x96" type="image/png">
     <link rel="apple-touch-icon" href="apple-touch-icon.png"> 
-    <meta property="og:title" content="Golden Needle | Expert Clothing Alterations & Tailoring">
-    <meta property="og:description" content="Professional tailoring serving Stockport and Greater Manchester. Bridal wear, suits, and everyday garment repairs.">
+    <meta property="og:title" content="Golden Needle | Expert Clothing Alterations, Tailor & Seamstress">
+    <meta property="og:description" content="Professional tailoring and local seamstress serving Stockport and Greater Manchester. Bridal wear, suits, and everyday garment repairs.">
     <meta property="og:image" content="image_0.png">
     <meta property="og:type" content="website">
 
@@ -72,7 +72,7 @@
             "name": "Do you do bridal alterations in Stockport?",
             "acceptedAnswer": {
               "@type": "Answer",
-              "text": "Yes, our expert tailors specialize in high-end bridal alterations, wedding dress tailoring, and bridesmaid dress fitting."
+              "text": "Yes, our expert seamstresses and tailors specialize in high-end bridal alterations, wedding dress tailoring, and bridesmaid dress fitting."
             }
           },
           {
@@ -101,6 +101,41 @@
         body { font-family: 'Montserrat', sans-serif; background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
         h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
         
+        /* Updated Subtle Top Banner */
+        .top-banner {
+            background-color: var(--text-color);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 20px;
+            font-size: 0.9rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+            z-index: 1001;
+            position: relative;
+            letter-spacing: 0.5px;
+        }
+        .top-banner p { margin: 0; font-weight: 300; }
+        .top-banner strong { font-weight: 600; color: var(--accent-color); }
+        .wa-btn-small {
+            background-color: var(--accent-color);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 6px 18px;
+            border-radius: 30px;
+            font-weight: 600;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.2s ease, transform 0.2s ease;
+        }
+        .wa-btn-small:hover {
+            background-color: #8f7961;
+            transform: translateY(-2px);
+        }
+
         header {
             padding: 15px 50px;
             display: flex; justify-content: space-between; align-items: center;
@@ -177,8 +212,10 @@
         .contact-info-block { margin-bottom: 25px; font-size: 1.1rem; }
         .contact-info-block strong { display: block; margin-bottom: 5px; color: var(--text-color); font-family: 'Playfair Display', serif; font-size: 1.2rem; letter-spacing: 0.5px; }
         
+        /* Updated Call/Message Button for Contact Section */
         .btn-call { display: inline-block; margin-top: 10px; padding: 15px 35px; background-color: var(--accent-color); color: #ffffff; text-decoration: none; font-weight: 600; border-radius: 30px; text-align: center; transition: background-color 0.3s ease, transform 0.2s ease; box-shadow: 0 4px 15px rgba(166, 144, 118, 0.3); }
         .btn-call:hover { background-color: #8f7961; transform: translateY(-2px); }
+        
         .map-container { border-radius: 16px; overflow: hidden; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); min-height: 450px; }
         .map-container iframe { width: 100%; height: 100%; border: none; display: block; }
         
@@ -188,6 +225,7 @@
         @media (max-width: 992px) { .insta-grid { grid-template-columns: repeat(2, 1fr); } }
         @media (max-width: 850px) { .contact-wrapper { grid-template-columns: 1fr; } .map-container { min-height: 350px; } }
         @media (max-width: 768px) {
+            .top-banner { flex-direction: column; gap: 10px; text-align: center; padding: 15px; }
             header { padding: 15px 20px; flex-direction: column; gap: 15px; }
             .nav-links { flex-wrap: wrap; justify-content: center; gap: 15px; }
             .nav-links a { margin-left: 0; }
@@ -203,6 +241,11 @@
     </style>
 </head>
 <body>
+
+    <div class="top-banner">
+        <p>💬 <strong>Have a question?</strong> Just drop us a message. It's the easiest way to reach us, and we reply within 30 mins!</p>
+        <a href="https://wa.me/447830591152" target="_blank" rel="noopener noreferrer" class="wa-btn-small">Message Us</a>
+    </div>
 
     <header>
         <a href="#" class="logo" aria-label="Golden Needle Home">
@@ -224,22 +267,22 @@
             <div class="about-text">
                 <span class="badge">OPENED THIS MONTH • STOCKPORT</span>
                 
-                <h1>Expert Clothing Alterations & Tailoring in Stockport</h1>
+                <h1>Expert Clothing Alterations, Tailor & Local Seamstress in Stockport</h1>
                 <h2 style="font-size: 1.4rem; color: #7a6b58; margin-bottom: 15px;">Professional Garment Repairs, Suit Tailoring & Wedding Dress Alterations</h2>
                 
-                <p>Welcome to <strong>Golden Needle</strong>. We provide high-end tailoring and clothes alterations in a warm environment featuring <strong>two private changing rooms</strong> and <strong>8 professional machines</strong>.</p>
+                <p>Welcome to <strong>Golden Needle</strong>. We provide high-end tailoring, dedicated seamstress services, and clothes alterations in a warm environment featuring <strong>two private changing rooms</strong> and <strong>8 professional machines</strong>.</p>
                 <br>
-                <p>Whether you need meticulous <strong>wedding dress alterations</strong>, bespoke suit tailoring, or simple trouser shortening and uniform adjustments, our experienced tailors offer expert advice and a perfect colour match with hundreds of available threads.</p>
+                <p>Whether you need meticulous <strong>wedding dress alterations</strong>, bespoke suit tailoring, or the skilled hand of a local seamstress for simple trouser shortening and uniform adjustments, our experienced team offers expert advice and a perfect colour match with hundreds of available threads.</p>
                 <br>
                 <p><strong>Don't forget to ask for your Loyalty Card!</strong></p>
             </div>
             <div class="about-images">
-                <img src="lady.jpg" alt="Professional tailor working on bridal and clothing alterations in Stockport, Greater Manchester">
+                <img src="lady.jpg" alt="Professional tailor and seamstress working on bridal and clothing alterations in Stockport, Greater Manchester">
             </div>
         </section>
 
         <section id="services" style="padding: 80px 20px; max-width: 1200px; margin: 0 auto; text-align: center;">
-            <h2>Our Tailoring Services</h2>
+            <h2>Our Tailoring & Seamstress Services</h2>
             <p style="opacity: 0.8; max-width: 800px; margin: 0 auto 40px; font-size: 1.05rem;">
                 From everyday wardrobe fixes to complex wedding dress resizing, our Stockport studio provides precise, high-quality garment care for every occasion.
             </p>
@@ -263,7 +306,7 @@
                 <div style="background: #fff; padding: 40px 30px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-top: 4px solid var(--accent-color);">
                     <h3 style="margin-bottom: 15px; color: var(--accent-color); font-size: 1.3rem;">Bridal & Evening Wear</h3>
                     <p style="font-size: 0.95rem; color: #555;">
-                        Your big day requires absolute perfection. Our experienced tailors specialise in delicate wedding dress alterations, bridesmaid dress fitting, and prom dress resizing. We work meticulously with lace, silk, and beadwork to achieve a flawless, custom fit.
+                        Your big day requires absolute perfection. Our experienced seamstresses and tailors specialise in delicate wedding dress alterations, bridesmaid dress fitting, and prom dress resizing. We work meticulously with lace, silk, and beadwork to achieve a flawless, custom fit.
                     </p>
                 </div>
 
@@ -354,7 +397,7 @@
             <div class="faq-grid">
                 <div class="faq-item">
                     <h3>Do you do bridal alterations in Stockport?</h3>
-                    <p>Yes, our expert tailors specialize in high-end bridal alterations, wedding dress tailoring, and bridesmaid dress fitting.</p>
+                    <p>Yes, our expert seamstresses and tailors specialize in high-end bridal alterations, wedding dress tailoring, and bridesmaid dress fitting.</p>
                 </div>
                 <div class="faq-item">
                     <h3>Do I need to book an appointment for clothing alterations?</h3>
@@ -419,7 +462,9 @@
                     </div>
 
                     <div class="contact-info-block" style="margin-top: 10px;">
-                        <a href="tel:07830591152" class="btn-call">📞 Call 07830 591152</a>
+                        <a href="https://wa.me/447830591152" target="_blank" rel="noopener noreferrer" class="btn-call">💬 Message on WhatsApp</a>
+                        <br>
+                        <a href="tel:07830591152" style="display:inline-block; margin-top: 15px; color: var(--text-color); font-weight: 600; text-decoration: none;">Or Call 07830 591152</a>
                     </div>
                 </div>
 
@@ -430,7 +475,7 @@
 
             <div class="service-areas">
                 <h4>Proudly Serving Stockport & Greater Manchester</h4>
-                <p>Based on Stockport Rd, Golden Needle provides premier clothes alterations, dressmaking, and bridal tailoring to clients across the region. Because finding a trusted tailor is worth the trip, our frequent customers travel to us from <strong>Cheadle, Bramhall, Hazel Grove, Heaton Moor, Didsbury, Withington, and Wythenshawe</strong> for high-quality, reliable garment care.</p>
+                <p>Based on Stockport Rd, Golden Needle provides premier clothes alterations, local seamstress services, dressmaking, and bridal tailoring to clients across the region. Because finding a trusted tailor is worth the trip, our frequent customers travel to us from <strong>Cheadle, Bramhall, Hazel Grove, Heaton Moor, Didsbury, Withington, and Wythenshawe</strong> for high-quality, reliable garment care.</p>
             </div>
         </section>
     </main>
