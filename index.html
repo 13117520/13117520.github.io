@@ -1,29 +1,45 @@
 <!DOCTYPE html>
-<html lang="en-GB"> <head>
+<html lang="en-GB">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#A69076"> 
+    <meta name="theme-color" content="#2B2230">
     <title>Clothing Alterations, Tailor & Seamstress Stockport | Golden Needle</title>
     <meta name="description" content="Top-rated clothing alterations, local seamstress, and tailor in Stockport. Serving Cheadle, Bramhall, Didsbury, and Greater Manchester. Bridal, suits, and everyday garment repairs.">
     <meta name="keywords" content="clothes alterations stockport, tailor stockport, local seamstress stockport, clothing repairs cheadle, wedding dress alterations stockport, suit tailoring bramhall">
-    <link rel="canonical" href="https://www.yourwebsite.com/">
-    
-    <link rel="icon" href="logo-96x96.png" sizes="96x96" type="image/png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png"> 
+    <link rel="canonical" href="https://goldenneedle.uk/">
+
+    <!-- Fixed Favicon with Absolute URL -->
+    <link rel="icon" href="https://goldenneedle.uk/logo-96x96.png" sizes="96x96" type="image/png">
+    <link rel="apple-touch-icon" href="https://goldenneedle.uk/apple-touch-icon.png">
     <meta property="og:title" content="Golden Needle | Expert Clothing Alterations, Tailor & Seamstress">
     <meta property="og:description" content="Professional tailoring and local seamstress serving Stockport and Greater Manchester. Bridal wear, suits, and everyday garment repairs.">
-    <meta property="og:image" content="image_0.png">
+    <meta property="og:image" content="https://goldenneedle.uk/image_0.png">
+    <meta property="og:url" content="https://goldenneedle.uk/">
     <meta property="og:type" content="website">
+
+    <script>document.documentElement.classList.add('js');</script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
     <script type="application/ld+json">
     [
       {
         "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Golden Needle",
+        "url": "https://goldenneedle.uk/"
+      },
+      {
+        "@context": "https://schema.org",
         "@type": "TailorShop",
         "name": "Golden Needle Clothing Alterations",
-        "image": "image_0.png",
-        "logo": "image_0.png",
-        "url": "https://www.yourwebsite.com/",
+        "image": "https://goldenneedle.uk/image_0.png",
+        "logo": "https://goldenneedle.uk/image_0.png",
+        "url": "https://goldenneedle.uk/",
         "telephone": "07830591152",
         "address": {
           "@type": "PostalAddress",
@@ -35,8 +51,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 53.4084, 
-          "longitude": -2.1493 
+          "latitude": 53.404274,
+          "longitude": -2.1849052
         },
         "areaServed": [
           {"@type": "City", "name": "Stockport"},
@@ -82,169 +98,27 @@
               "@type": "Answer",
               "text": "Walk-ins are always welcome at our Stockport studio for standard garment repairs and zip replacements. For bridal fittings, we recommend calling ahead."
             }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the Halloween offer work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Bring 3 or more items for alteration and say 'Trick or Treat' to get 10% off. Wedding dress alterations are excluded."
+            }
           }
         ]
       }
     ]
     </script>
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
-
-        :root {
-            --bg-color: #F4F3F0; 
-            --text-color: #4B433B; 
-            --accent-color: #A69076; 
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
-        body { font-family: 'Montserrat', sans-serif; background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; }
-        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
-        
-        /* Updated Subtle Top Banner */
-        .top-banner {
-            background-color: var(--text-color);
-            color: #ffffff;
-            text-align: center;
-            padding: 10px 20px;
-            font-size: 0.9rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            flex-wrap: wrap;
-            z-index: 1001;
-            position: relative;
-            letter-spacing: 0.5px;
-        }
-        .top-banner p { margin: 0; font-weight: 300; }
-        .top-banner strong { font-weight: 600; color: var(--accent-color); }
-        .wa-btn-small {
-            background-color: var(--accent-color);
-            color: #ffffff;
-            text-decoration: none;
-            padding: 6px 18px;
-            border-radius: 30px;
-            font-weight: 600;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: background-color 0.2s ease, transform 0.2s ease;
-        }
-        .wa-btn-small:hover {
-            background-color: #8f7961;
-            transform: translateY(-2px);
-        }
-
-        header {
-            padding: 15px 50px;
-            display: flex; justify-content: space-between; align-items: center;
-            background-color: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            -webkit-backdrop-filter: blur(10px);
-            position: sticky; top: 0; z-index: 1000;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.04);
-            border-bottom: 1px solid rgba(0,0,0,0.02);
-        }
-
-        .logo { display: flex; align-items: center; text-decoration: none; }
-        .logo-img { max-height: 90px; width: auto; display: block; }
-
-        .nav-links { display: flex; align-items: center; }
-        .nav-links a { 
-            margin-left: 35px; font-weight: 600; text-transform: uppercase; 
-            font-size: 0.8rem; letter-spacing: 1.5px; text-decoration: none; 
-            color: var(--text-color); transition: color 0.3s ease; position: relative;
-        }
-        .nav-links a::after {
-            content: ''; position: absolute; width: 0; height: 2px;
-            bottom: -6px; left: 0; background-color: var(--accent-color); transition: width 0.3s ease;
-        }
-        .nav-links a:hover { color: var(--accent-color); }
-        .nav-links a:hover::after { width: 100%; }
-
-        .about-section { 
-            padding: 80px 20px; max-width: 1100px; margin: 0 auto; 
-            display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 60px; align-items: center; 
-        }
-        .about-text { text-align: left; }
-        .about-images img { 
-            width: 100%; height: auto; border-radius: 8px; box-shadow: 15px 15px 0px var(--accent-color); 
-        }
-        .badge { display: inline-block; padding: 5px 15px; background: var(--accent-color); color: white; border-radius: 20px; font-size: 0.7rem; font-weight: 600; margin-bottom: 15px; letter-spacing: 1px; }
-
-        .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 25px; padding: 40px 0; }
-        .price-cat { background: #fff; padding: 25px; border-radius: 10px; text-align: left; box-shadow: 0 4px 15px rgba(0,0,0,0.03); }
-        .price-cat h3 { border-bottom: 1px solid var(--accent-color); margin-bottom: 15px; padding-bottom: 5px; text-transform: uppercase; font-size: 1rem; letter-spacing: 1px; color: var(--accent-color); }
-        .item { display: flex; justify-content: space-between; margin-bottom: 8px; font-size: 0.85rem; border-bottom: 1px solid rgba(0,0,0,0.05); padding-bottom: 4px; }
-        .item span:last-child { font-weight: 600; white-space: nowrap; padding-left: 10px; }
-
-        section { padding: 80px 20px; max-width: 1200px; margin: 0 auto; text-align: center; }
-        h1 { font-size: 2.5rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 2px; }
-        h2 { font-size: 2.2rem; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px; }
-
-        /* FAQ Section Styling */
-        .faq-grid { display: grid; grid-template-columns: 1fr; gap: 15px; text-align: left; max-width: 800px; margin: 40px auto 0; }
-        .faq-item { background: #fff; padding: 20px; border-radius: 8px; border-left: 4px solid var(--accent-color); box-shadow: 0 2px 10px rgba(0,0,0,0.02); }
-        .faq-item h3 { font-family: 'Montserrat', sans-serif; font-size: 1.1rem; color: var(--text-color); margin-bottom: 8px; }
-        .faq-item p { font-size: 0.95rem; color: #555; }
-
-        .insta-container { padding: 80px 20px; background-color: var(--bg-color); }
-        .insta-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; max-width: 1200px; margin: 0 auto; }
-        .insta-item { background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06); transition: transform 0.3s ease, box-shadow 0.3s ease; }
-        .insta-item:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12); }
-        .insta-item iframe { width: 100%; height: 440px; border: none; background: #fff; display: block; }
-
-        #reviews { background-color: #efeee9; max-width: 100%; }
-        .review-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; max-width: 1200px; margin: 40px auto 0; }
-        .review-card { background: #ffffff; padding: 40px 30px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); text-align: left; position: relative; }
-        .stars { color: #D4AF37; font-size: 1.3rem; margin-bottom: 15px; letter-spacing: 2px; }
-        .review-text { font-style: italic; margin-bottom: 20px; color: #555; line-height: 1.8; font-size: 0.95rem; }
-        .reviewer-name { font-weight: 600; font-family: 'Playfair Display', serif; color: var(--text-color); font-size: 1.1rem; border-top: 1px solid rgba(0,0,0,0.05); padding-top: 15px; }
-        
-        .btn-outline { display: inline-block; margin-top: 40px; padding: 12px 35px; border: 2px solid var(--accent-color); color: var(--accent-color); text-decoration: none; font-weight: 600; border-radius: 30px; transition: all 0.3s ease; text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px; }
-        .btn-outline:hover { background-color: var(--accent-color); color: #ffffff; }
-
-        #contact { background-color: #ffffff; max-width: 100%; padding-bottom: 40px; }
-        .contact-wrapper { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: stretch; }
-        .contact-card { background-color: var(--bg-color); padding: 50px 40px; border-radius: 16px; text-align: left; display: flex; flex-direction: column; justify-content: center; }
-        .contact-card h2 { text-align: left; margin-bottom: 30px; color: var(--accent-color); }
-        .contact-info-block { margin-bottom: 25px; font-size: 1.1rem; }
-        .contact-info-block strong { display: block; margin-bottom: 5px; color: var(--text-color); font-family: 'Playfair Display', serif; font-size: 1.2rem; letter-spacing: 0.5px; }
-        
-        /* Updated Call/Message Button for Contact Section */
-        .btn-call { display: inline-block; margin-top: 10px; padding: 15px 35px; background-color: var(--accent-color); color: #ffffff; text-decoration: none; font-weight: 600; border-radius: 30px; text-align: center; transition: background-color 0.3s ease, transform 0.2s ease; box-shadow: 0 4px 15px rgba(166, 144, 118, 0.3); }
-        .btn-call:hover { background-color: #8f7961; transform: translateY(-2px); }
-        
-        .map-container { border-radius: 16px; overflow: hidden; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); min-height: 450px; }
-        .map-container iframe { width: 100%; height: 100%; border: none; display: block; }
-        
-        .service-areas { max-width: 1200px; margin: 40px auto 0; text-align: center; padding: 0 20px; font-size: 0.9rem; color: #666; }
-        .service-areas p { margin-top: 10px; line-height: 1.8; }
-
-        @media (max-width: 992px) { .insta-grid { grid-template-columns: repeat(2, 1fr); } }
-        @media (max-width: 850px) { .contact-wrapper { grid-template-columns: 1fr; } .map-container { min-height: 350px; } }
-        @media (max-width: 768px) {
-            .top-banner { flex-direction: column; gap: 10px; text-align: center; padding: 15px; }
-            header { padding: 15px 20px; flex-direction: column; gap: 15px; }
-            .nav-links { flex-wrap: wrap; justify-content: center; gap: 15px; }
-            .nav-links a { margin-left: 0; }
-            .about-section { grid-template-columns: 1fr; text-align: center; }
-            .about-text { order: 2; }
-            .about-images { order: 1; margin-bottom: 40px; }
-            .insta-container { padding: 40px 15px; }
-            h1 { font-size: 2rem; }
-            h2 { font-size: 1.8rem; }
-            .contact-card { padding: 30px 20px; }
-            .insta-grid { grid-template-columns: 1fr; }
-        }
-    </style>
 </head>
 <body>
 
     <div class="top-banner">
-        <p>💬 <strong>Have a question?</strong> Just drop us a message. It's the easiest way to reach us, and we reply within 30 mins!</p>
-        <a href="https://wa.me/447830591152" target="_blank" rel="noopener noreferrer" class="wa-btn-small">Message Us</a>
+        <span class="web" aria-hidden="true"></span>
+        <span class="web r" aria-hidden="true"></span>
+        <p><span class="pumpkin" aria-hidden="true">🎃</span> <strong>Trick or Treat!</strong> Bring 3 or more items and say “Trick or Treat” to get <strong>10% off</strong>.</p>
+        <a href="newsletter.html" class="banner-btn">Halloween offer</a>
     </div>
 
     <header>
@@ -259,67 +133,92 @@
             <a href="#social">Recent Work</a>
             <a href="#reviews">Reviews</a>
             <a href="#contact">Location</a>
+            <a href="newsletter.html" class="nav-hot">Newsletter</a>
         </nav>
     </header>
 
     <main>
-        <section id="about" class="about-section">
-            <div class="about-text">
-                <span class="badge">OPENED THIS MONTH • STOCKPORT</span>
-                
-                <h1>Expert Clothing Alterations, Tailor & Local Seamstress in Stockport</h1>
-                <h2 style="font-size: 1.4rem; color: #7a6b58; margin-bottom: 15px;">Professional Garment Repairs, Suit Tailoring & Wedding Dress Alterations</h2>
-                
-                <p>Welcome to <strong>Golden Needle</strong>. We provide high-end tailoring, dedicated seamstress services, and clothes alterations in a warm environment featuring <strong>two private changing rooms</strong> and <strong>8 professional machines</strong>.</p>
-                <br>
-                <p>Whether you need meticulous <strong>wedding dress alterations</strong>, bespoke suit tailoring, or the skilled hand of a local seamstress for simple trouser shortening and uniform adjustments, our experienced team offers expert advice and a perfect colour match with hundreds of available threads.</p>
-                <br>
-                <p><strong>Don't forget to ask for your Loyalty Card!</strong></p>
+        <div class="hero">
+            <span class="web dark" aria-hidden="true"></span>
+            <span class="web dark r" aria-hidden="true"></span>
+
+            <div class="spider" aria-hidden="true">
+                <i></i>
+                <svg viewBox="0 0 44 40" width="40" height="36">
+                    <g stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                        <path d="M17 17L8 9L3 13M16 21L6 20L2 26M16 25L7 31L4 38M18 28L12 36L11 40"/>
+                        <path d="M27 17L36 9L41 13M28 21L38 20L42 26M28 25L37 31L40 38M26 28L32 36L33 40"/>
+                    </g>
+                    <circle cx="22" cy="25" r="7" fill="currentColor"/>
+                    <circle cx="22" cy="15" r="4.5" fill="currentColor"/>
+                    <circle cx="20.3" cy="14" r="1" fill="#E8832A"/>
+                    <circle cx="23.7" cy="14" r="1" fill="#E8832A"/>
+                </svg>
             </div>
-            <div class="about-images">
-                <img src="lady.jpg" alt="Professional tailor and seamstress working on bridal and clothing alterations in Stockport, Greater Manchester">
+
+            <span class="bat" style="--t:18%;--dur:19s;--delay:3s" aria-hidden="true"><svg viewBox="0 0 40 16" fill="currentColor"><path d="M0 8Q5 0 12 5Q16 1 20 7Q24 1 28 5Q35 0 40 8Q32 7 28 14Q24 9 20 13Q16 9 12 14Q8 7 0 8Z"/></svg></span>
+            <span class="bat" style="--t:42%;--dur:25s;--delay:9s;width:26px" aria-hidden="true"><svg viewBox="0 0 40 16" fill="currentColor"><path d="M0 8Q5 0 12 5Q16 1 20 7Q24 1 28 5Q35 0 40 8Q32 7 28 14Q24 9 20 13Q16 9 12 14Q8 7 0 8Z"/></svg></span>
+            <span class="bat" style="--t:68%;--dur:22s;--delay:15s;width:30px" aria-hidden="true"><svg viewBox="0 0 40 16" fill="currentColor"><path d="M0 8Q5 0 12 5Q16 1 20 7Q24 1 28 5Q35 0 40 8Q32 7 28 14Q24 9 20 13Q16 9 12 14Q8 7 0 8Z"/></svg></span>
+
+            <section id="about" class="about-section">
+                <div class="about-text">
+                    <h1 class="rise" style="--d:.2s">Expert Clothing Alterations, Tailor & Local Seamstress in Stockport</h1>
+                    <h2 class="subhead rise" style="--d:.4s">Professional Garment Repairs, Suit Tailoring & Wedding Dress Alterations</h2>
+
+                    <p class="rise" style="--d:.6s">Welcome to <strong>Golden Needle</strong>. We provide high-end tailoring, dedicated seamstress services, and clothes alterations in a warm environment featuring <strong>two private changing rooms</strong> and <strong>8 professional machines</strong>.</p>
+                    <p class="rise" style="--d:.75s">Whether you need meticulous <strong>wedding dress alterations</strong>, bespoke suit tailoring, or the skilled hand of a local seamstress for simple trouser shortening and uniform adjustments, our experienced team offers expert advice and a perfect colour match with hundreds of available threads.</p>
+                    <p class="rise" style="--d:.9s"><strong>Don't forget to ask for your Loyalty Card!</strong></p>
+                </div>
+                <div class="about-images rise" style="--d:.5s">
+                    <img src="lady.jpg" alt="Professional tailor and seamstress working on bridal and clothing alterations in Stockport, Greater Manchester">
+                </div>
+            </section>
+        </div>
+
+        <section class="promo" id="halloween" aria-labelledby="halloween-title">
+            <span class="web" aria-hidden="true"></span>
+            <span class="web r" aria-hidden="true"></span>
+            <span class="ghost" aria-hidden="true">👻</span>
+            <div class="promo-inner reveal">
+                <h2 id="halloween-title">Trick or Treat</h2>
+                <p class="sub">This Halloween, bring us <strong>3 or more items</strong> and say the magic words. We'll take <strong>10% off</strong>.</p>
+                <ol class="steps">
+                    <li><span class="n">1</span> Bring 3 or more items</li>
+                    <li><span class="n">2</span> Say “Trick or Treat”</li>
+                    <li><span class="n">3</span> Get 10% off</li>
+                </ol>
+                <p class="fine">Wedding dress alterations are excluded.</p>
+                <a href="newsletter.html" class="btn-pumpkin">Read the Halloween newsletter</a>
             </div>
         </section>
 
-        <section id="services" style="padding: 80px 20px; max-width: 1200px; margin: 0 auto; text-align: center;">
-            <h2>Our Tailoring & Seamstress Services</h2>
-            <p style="opacity: 0.8; max-width: 800px; margin: 0 auto 40px; font-size: 1.05rem;">
-                From everyday wardrobe fixes to complex wedding dress resizing, our Stockport studio provides precise, high-quality garment care for every occasion.
-            </p>
+        <section id="services">
+            <h2 class="reveal">Our Tailoring & Seamstress Services</h2>
+            <p class="lead reveal">From everyday wardrobe fixes to complex wedding dress resizing, our Stockport studio provides precise, high-quality garment care for every occasion.</p>
 
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; text-align: left;">
-                
-                <div style="background: #fff; padding: 40px 30px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-top: 4px solid var(--accent-color);">
-                    <h3 style="margin-bottom: 15px; color: var(--accent-color); font-size: 1.3rem;">Everyday Clothes Alterations</h3>
-                    <p style="font-size: 0.95rem; color: #555;">
-                        Don't throw away your favourite garments. We expertly handle jeans shortening, trouser tapering, zip replacements, and seam repairs. Whether it's taking in a dress or fixing a torn jacket, our daily clothing alterations breathe new life into your wardrobe.
-                    </p>
+            <div class="service-grid">
+                <div class="service-card reveal">
+                    <h3>Everyday Clothes Alterations</h3>
+                    <p>Don't throw away your favourite garments. We expertly handle jeans shortening, trouser tapering, zip replacements, and seam repairs. Whether it's taking in a dress or fixing a torn jacket, our daily clothing alterations breathe new life into your wardrobe.</p>
                 </div>
-
-                <div style="background: #fff; padding: 40px 30px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-top: 4px solid var(--accent-color);">
-                    <h3 style="margin-bottom: 15px; color: var(--accent-color); font-size: 1.3rem;">Suit Tailoring & Resizing</h3>
-                    <p style="font-size: 0.95rem; color: #555;">
-                        A well-fitted suit makes all the difference. We provide professional suit tailoring for men and women. From adjusting jacket sleeves and taking in the waist, to tapering trousers for a modern fit, we ensure you look sharp for business, interviews, or special events.
-                    </p>
+                <div class="service-card reveal">
+                    <h3>Suit Tailoring & Resizing</h3>
+                    <p>A well-fitted suit makes all the difference. We provide professional suit tailoring for men and women. From adjusting jacket sleeves and taking in the waist, to tapering trousers for a modern fit, we ensure you look sharp for business, interviews, or special events.</p>
                 </div>
-
-                <div style="background: #fff; padding: 40px 30px; border-radius: 16px; box-shadow: 0 4px 15px rgba(0,0,0,0.03); border-top: 4px solid var(--accent-color);">
-                    <h3 style="margin-bottom: 15px; color: var(--accent-color); font-size: 1.3rem;">Bridal & Evening Wear</h3>
-                    <p style="font-size: 0.95rem; color: #555;">
-                        Your big day requires absolute perfection. Our experienced seamstresses and tailors specialise in delicate wedding dress alterations, bridesmaid dress fitting, and prom dress resizing. We work meticulously with lace, silk, and beadwork to achieve a flawless, custom fit.
-                    </p>
+                <div class="service-card reveal">
+                    <h3>Bridal & Evening Wear</h3>
+                    <p>Your big day requires absolute perfection. Our experienced seamstresses and tailors specialise in delicate wedding dress alterations, bridesmaid dress fitting, and prom dress resizing. We work meticulously with lace, silk, and beadwork to achieve a flawless, custom fit.</p>
                 </div>
-
             </div>
         </section>
 
-        <section id="prices" style="background: #efeee9; max-width: 100%;">
-            <div style="max-width: 1200px; margin: 0 auto;">
-                <h2>Garment Repair & Tailoring Price List</h2>
-                <p style="margin-bottom: 40px; opacity: 0.8;"><i>Exact price provided on-site after consultation</i></p>
-                
+        <section id="prices">
+            <div class="price-wrap">
+                <h2 class="reveal">Garment Repair & Tailoring Price List</h2>
+                <p class="reveal" style="margin-bottom: 40px; opacity: .8;"><i>Exact price provided on-site after consultation</i></p>
+
                 <div class="price-grid">
-                    <div class="price-cat">
+                    <div class="price-cat reveal">
                         <h3>Skirts & Dresses</h3>
                         <div class="item"><span>Shorten / Lengthen Plain</span> <span>from £16</span></div>
                         <div class="item"><span>Shorten / Lengthen with Lining</span> <span>from £20</span></div>
@@ -333,7 +232,7 @@
                         <div class="item"><span>Remove & Close Pocket</span> <span>each £7.50</span></div>
                     </div>
 
-                    <div class="price-cat">
+                    <div class="price-cat reveal">
                         <h3>Trousers</h3>
                         <div class="item"><span>Shorten / Lengthen Plain</span> <span>from £14</span></div>
                         <div class="item"><span>With Tape</span> <span>from £15</span></div>
@@ -345,7 +244,7 @@
                         <div class="item"><span>New Zip</span> <span>£16</span></div>
                     </div>
 
-                    <div class="price-cat">
+                    <div class="price-cat reveal">
                         <h3>Jeans</h3>
                         <div class="item"><span>Shorten</span> <span>from £14</span></div>
                         <div class="item"><span>Patch</span> <span>£12</span></div>
@@ -353,8 +252,8 @@
                         <div class="item"><span>New Metal Button</span> <span>£5</span></div>
                     </div>
 
-                    <div class="price-cat">
-                        <h3>Evening wear</h3> 
+                    <div class="price-cat reveal">
+                        <h3>Evening wear</h3>
                         <div class="item"><span>Shorten Plain</span> <span>from £30</span></div>
                         <div class="item"><span>With Lining</span> <span>from £50</span></div>
                         <div class="item"><span>Take In</span> <span>from £30</span></div>
@@ -364,7 +263,7 @@
                         <div class="item"><span>New Zip</span> <span>from £20</span></div>
                     </div>
 
-                    <div class="price-cat">
+                    <div class="price-cat reveal">
                         <h3>Jackets & Coats</h3>
                         <div class="item"><span>Shorten Sleeves (No Lining)</span> <span>from £20</span></div>
                         <div class="item"><span>With Lining</span> <span>from £30</span></div>
@@ -378,7 +277,7 @@
                         <div class="item"><span>New Button</span> <span>£2</span></div>
                     </div>
 
-                    <div class="price-cat">
+                    <div class="price-cat reveal">
                         <h3>Shirts</h3>
                         <div class="item"><span>Shorten Sleeves Plain</span> <span>£12</span></div>
                         <div class="item"><span>With Cuffs</span> <span>£18</span></div>
@@ -392,49 +291,53 @@
         </section>
 
         <section id="faq">
-            <h2>Frequently Asked Questions</h2>
-            <p style="opacity: 0.8;">Everything you need to know about our tailor shop</p>
+            <h2 class="reveal">Frequently Asked Questions</h2>
+            <p class="reveal" style="opacity: .8;">Everything you need to know about our tailor shop</p>
             <div class="faq-grid">
-                <div class="faq-item">
+                <div class="faq-item hot reveal">
+                    <h3>How does the Halloween offer work?</h3>
+                    <p>Bring 3 or more items for alteration and say “Trick or Treat” to get 10% off. Wedding dress alterations are excluded.</p>
+                </div>
+                <div class="faq-item reveal">
                     <h3>Do you do bridal alterations in Stockport?</h3>
                     <p>Yes, our expert seamstresses and tailors specialize in high-end bridal alterations, wedding dress tailoring, and bridesmaid dress fitting.</p>
                 </div>
-                <div class="faq-item">
+                <div class="faq-item reveal">
                     <h3>Do I need to book an appointment for clothing alterations?</h3>
                     <p>Walk-ins are always welcome at our Stockport studio for standard garment repairs and zip replacements. For bridal fittings, we recommend calling ahead.</p>
                 </div>
             </div>
         </section>
 
-        <section id="social" class="insta-container">
-            <h2>Latest Tailoring & Alteration Work</h2> 
+        <section id="social" class="insta-container" style="max-width:100%;">
+            <h2 class="reveal">Latest Tailoring & Alteration Work</h2>
             <div class="insta-grid">
-                <div class="insta-item"><iframe src="https://www.instagram.com/p/DW0zI4PCFtZ/embed" scrolling="no" frameborder="0" title="Recent clothing alteration work on Instagram"></iframe></div>
-                <div class="insta-item"><iframe src="https://www.instagram.com/p/DXCfQV3iLaf/embed" scrolling="no" frameborder="0" title="Recent clothing alteration work on Instagram"></iframe></div>
-                <div class="insta-item"><iframe src="https://www.instagram.com/p/DXHDEPWiIbT/embed" scrolling="no" frameborder="0" title="Recent clothing alteration work on Instagram"></iframe></div>
-                <div class="insta-item"><iframe src="https://www.instagram.com/p/DWzKpxYiH2Z/embed" scrolling="no" frameborder="0" title="Recent clothing alteration work on Instagram"></iframe></div>
+                <div class="insta-item reveal"><iframe src="https://www.instagram.com/p/DW0zI4PCFtZ/embed" scrolling="no" frameborder="0" loading="lazy" title="Recent clothing alteration work on Instagram"></iframe></div>
+                <div class="insta-item reveal"><iframe src="https://www.instagram.com/p/DXCfQV3iLaf/embed" scrolling="no" frameborder="0" loading="lazy" title="Recent clothing alteration work on Instagram"></iframe></div>
+                <div class="insta-item reveal"><iframe src="https://www.instagram.com/p/DXHDEPWiIbT/embed" scrolling="no" frameborder="0" loading="lazy" title="Recent clothing alteration work on Instagram"></iframe></div>
+                <div class="insta-item reveal"><iframe src="https://www.instagram.com/p/DWzKpxYiH2Z/embed" scrolling="no" frameborder="0" loading="lazy" title="Recent clothing alteration work on Instagram"></iframe></div>
             </div>
         </section>
 
         <section id="reviews">
             <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
-                <h2>What Our Customers Say</h2>
-                <p style="opacity: 0.8; font-size: 1.1rem;">A 5-Star Experience on Google</p>
+                <h2 class="reveal">What Our Customers Say</h2>
+                <p class="reveal" style="opacity: .8; font-size: 1.1rem;">A 5-Star Experience on Google</p>
 
-                 <div class="review-grid">
-                    <div class="review-card">
+                <div class="review-grid">
+                    <div class="review-card reveal">
                         <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
                         <p class="review-text">"I have had my suit altered for a wedding, I have ordered it from Vinted but the fit was way off. Luckily I found Lady Agnes who did such an amazing job in such a short time. The suit fit perfectly, tailored exactly how I wanted. Absolutely recommend especially for such a fair price."</p>
                         <div class="reviewer-name">- Lukasz A.</div>
                     </div>
 
-                    <div class="review-card">
+                    <div class="review-card reveal">
                         <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
                         <p class="review-text">"I awaken the garden furniture for the good weather and was met with 5 broken zips! I went to see Aha at Golden Needle and she has returned them to ad good as new. A fantastic service both in terms of price and speed. In addition what a welcoming workspace they Ahave created."</p>
                         <div class="reviewer-name">- Rita H.</div>
                     </div>
 
-                    <div class="review-card">
+                    <div class="review-card reveal">
                         <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
                         <p class="review-text">"I took in three pairs of boys joggers to be taken in on the waist, the service was so quick and they now fit perfectly and an amazing job done, loved the idea of a loyalty card as well, will definitely return, the lady is so lovely, friendly and professional"</p>
                         <div class="reviewer-name">- Vicky M.</div>
@@ -447,9 +350,9 @@
 
         <section id="contact">
             <div class="contact-wrapper">
-                <div class="contact-card">
+                <div class="contact-card reveal">
                     <h2>Visit Our Studio</h2>
-                    
+
                     <div class="contact-info-block">
                         <strong>Golden Needle Clothing Alterations</strong>
                         <address style="font-style: normal;">42 Stockport Rd, Stockport SK3 0HZ</address>
@@ -464,11 +367,11 @@
                     <div class="contact-info-block" style="margin-top: 10px;">
                         <a href="https://wa.me/447830591152" target="_blank" rel="noopener noreferrer" class="btn-call">💬 Message on WhatsApp</a>
                         <br>
-                        <a href="tel:07830591152" style="display:inline-block; margin-top: 15px; color: var(--text-color); font-weight: 600; text-decoration: none;">Or Call 07830 591152</a>
+                        <a href="tel:07830591152" class="call-link">Or Call 07830 591152</a>
                     </div>
                 </div>
 
-                <div class="map-container">
+                <div class="map-container reveal">
                     <iframe src="https://maps.google.com/maps?q=Golden%20Needle%20Clothing%20Alterations,%2042%20Stockport%20Rd,%20Stockport&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" title="Google Maps Location of Golden Needle"></iframe>
                 </div>
             </div>
@@ -480,9 +383,17 @@
         </section>
     </main>
 
-    <footer style="padding: 40px; background: var(--text-color); color: white; text-align: center;">
+    <footer>
+        <span class="web" aria-hidden="true"></span>
+        <span class="web r" aria-hidden="true"></span>
+        <nav aria-label="Footer">
+            <a href="#about">Home</a>
+            <a href="newsletter.html">Newsletter</a>
+            <a href="#contact">Contact</a>
+        </nav>
         <p>© 2026 GOLDEN NEEDLE STOCKPORT.</p>
     </footer>
 
+    <script src="script.js" defer></script>
 </body>
 </html>
